@@ -203,7 +203,7 @@ class HanmanJidi extends ComicSource {
                     doc.dispose();
                     results.push({
                         title: "推荐漫画",
-                        comics: comics.slice(0, 20),
+                        comics: comics,
                         viewMore: { page: "category", attributes: { category: "推荐漫画" } }
                     });
                 } catch (e) {}
@@ -215,7 +215,7 @@ class HanmanJidi extends ComicSource {
                     doc.dispose();
                     results.push({
                         title: "全部漫画",
-                        comics: comics.slice(0, 20),
+                        comics: comics,
                         viewMore: { page: "category", attributes: { category: "全部漫画" } }
                     });
                 } catch (e) {}
