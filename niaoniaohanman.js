@@ -259,7 +259,7 @@ class Niaoniao extends ComicSource {
                 return [
                     {
                         title: "推荐漫画",
-                        comics: recommendComics.slice(0, 20),
+                        comics: recommendComics,
                         viewMore: {
                             page: "category",
                             attributes: {
@@ -269,7 +269,7 @@ class Niaoniao extends ComicSource {
                     },
                     {
                         title: "全部漫画",
-                        comics: allComics.slice(0, 20),
+                        comics: allComics,
                         viewMore: {
                             page: "category",
                             attributes: {
